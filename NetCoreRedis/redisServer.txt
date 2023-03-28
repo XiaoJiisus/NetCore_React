@@ -1,0 +1,8 @@
+redis-server
+redis-cli
+    lpush demos redis-macOS-demo
+    rpop demos
+
+brew services start redis
+brew services info redis
+brew services stop redis
